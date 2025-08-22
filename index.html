@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+        <h1 class="h1">The light bulb Challenge</h1>
+
+        <div>
+            <img width="250px" height="250px" src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3NXp3cWVuM24xODByNTJtb3RvZXM4bHRqYW5nZmZnZ2oyZmhxazBkNiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/4EInL3QJqM130NIn2k/giphy.gif" alt="">
+        </div>
+
+        <b><p class="para1">Press turn on to light up the bulb and press turn off the switch off</p></b>
+
+        <button type="button" onclick="document.getElementById('bulb').src='images/on.png'">Turn ON</button>
+
+        <img src="images/off.png" id="bulb" style="width: 200px;" alt="">
+
+        <button type="button" onclick="document.getElementById('bulb').src='images/off.png'">Turn OFF</button>
+
+        <p class="para2">@ JS</p>
+    </center>
+    
+    <script src="script.js"></script>
+</body>
+</html>
